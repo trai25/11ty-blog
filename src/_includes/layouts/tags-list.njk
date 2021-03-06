@@ -7,13 +7,10 @@
   {{ content | safe }}
 {% endset %}
 
-<ol>
 {% for tag in collections.tagList %}
-<li>  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag | title }}</a>
-  </li>
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {% endfor %}
-</ol>
 
 {% block content %}
   <main id="main-content" tabindex="-1">
