@@ -6,14 +6,14 @@
       "external": false
     },
     {
-      "text": "Example Contact Page",
-      "url": "/contact",
-      "external": false
-    },
-    {
       "external": false,
       "text": "About",
       "url": "/about"
+    },
+    {
+      "text": "Example Contact Page",
+      "url": "/contact",
+      "external": false
     }
   ]
 }
