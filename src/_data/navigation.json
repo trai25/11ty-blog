@@ -9,11 +9,6 @@
       "external": false,
       "text": "About",
       "url": "/about"
-    },
-    {
-      "text": "Example Contact Page",
-      "url": "/contact",
-      "external": false
     }
   ]
 }
